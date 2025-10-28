@@ -1,0 +1,39 @@
+body {
+    background-color:darkolivegreen;
+    color: black;
+}
+
+#Banner {
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkslategray;
+    text-align: center;
+    font-size: 25px;
+}
+.mheader {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.OtherPar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+#Bar {
+    background-color: olive;
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+#site-content {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
