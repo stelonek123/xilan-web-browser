@@ -11,7 +11,7 @@ function Tab() {
     //site content
     const site_content = document.getElementById("site-content")
 
-    site_content.append("Xilan Web Browser (or XWB) is a simple web browser developed by Xilan Studio(Pefek45), it was created mainly for low end PCs. This is cause of low count of functions, but remember, this is only version 0.4. We are gonna add more functions, like tabs or local password saving.");
+    site_content.append("Xilan Web Browser (or XWB) is a simple web browser developed by Xilan Studio(Pefek45), it was created mainly for low end PCs. This is cause of low count of functions, but remember, this is only the beggining. We are gonna add more functions, like tabs or local password saving.");
 
     BOp1.addEventListener("click", function(event) {
         event.preventDefault();
@@ -31,6 +31,7 @@ function Tab() {
     })
 
 }
+
 
 
 
