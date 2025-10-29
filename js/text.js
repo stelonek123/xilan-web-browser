@@ -15,7 +15,7 @@ function Tab() {
 
     BOp1.addEventListener("click", function(event) {
         event.preventDefault();
-        site_content.innerHTML = "Xilan Web Browser (or XWB) is a simple web browser developed by Xilan Studio(Pefek45), it was created mainly for low end PCs. This is cause of low count of functions, but remember, this is the beggining. We are gonna add more functions, like tabs or local password saving. "
+        site_content.innerHTML = 'Xilan Web Browser (or XWB) is a simple web browser developed by Xilan Studio(Pefek45), it was created mainly for low end PCs. This is cause of low count of functions, but remember, this is the beggining. We are gonna add more functions, like local password saving. <br> <header class="FeaturesHeader">Whats New?</header> <br> Honestly Navigation Bar now have icons<br> Added simple tab system (double click on tabbar to add new tab), <br> Migrated project to PySide6'
     })
     BOp2.addEventListener("click", function(event) {
         event.preventDefault();
@@ -31,6 +31,7 @@ function Tab() {
     })
 
 }
+
 
 
 
