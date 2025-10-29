@@ -27,9 +27,10 @@ function Tab() {
     })
     BOp4.addEventListener("click", function(event) {
         event.preventDefault();
-        site_content.innerHTML = '<header class="FeaturesHeader">News</header><br><header class="FeaturesHeader">27.10.2025 - 0.4 - Code update</header><br><br><header class="FeaturesHeader">28.10.2025 - 0.6 - PySide6 Migration</header><br><br><header class="FeaturesHeader">29.10.2025 - 0.8 - Tabs Update</header>';
+        site_content.innerHTML = '<header class="FeaturesHeader">Update Log</header><br><header class="FeaturesHeader">27.10.2025 - 0.4 - Code update</header><br><br><header class="FeaturesHeader">28.10.2025 - 0.6 - PySide6 Migration</header><br><br><header class="FeaturesHeader">29.10.2025 - 0.8 - Tabs Update</header>';
     })
 
 }
+
 
 
