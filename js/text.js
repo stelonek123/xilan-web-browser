@@ -15,7 +15,7 @@ function Tab() {
 
     BOp1.addEventListener("click", function(event) {
         event.preventDefault();
-        site_content.innerHTML = 'Xilan Web Browser (or XWB) is a simple web browser developed by Xilan Studio(Pefek45), it was created mainly for low end PCs. This is cause of low count of functions, but remember, this is the beggining. We are gonna add more functions, like local password saving. <br> <header class="FeaturesHeader">Whats New?</header> <br> Honestly Navigation Bar now have icons<br> Added simple tab system (double click on tabbar to add new tab), <br> Migrated project to PySide6'
+        site_content.innerHTML = '<header class="FeaturesHeader">Whats New?</header> <br> Honestly Navigation Bar now have icons<br> Added simple tab system (double click on tabbar to add new tab), <br> Migrated project to PySide6'
     })
     BOp2.addEventListener("click", function(event) {
         event.preventDefault();
@@ -27,10 +27,11 @@ function Tab() {
     })
     BOp4.addEventListener("click", function(event) {
         event.preventDefault();
-        site_content.innerHTML = '<header class="FeaturesHeader">Update Log</header><br><header class="FeaturesHeader">27.10.2025 - 0.4 - Code update</header><br><br><header class="FeaturesHeader">28.10.2025 - 0.6 - PySide6 Migration</header><br><br><header class="FeaturesHeader">29.10.2025 - 0.8 - Tabs Update</header>';
+        site_content.innerHTML = '<header class="FeaturesHeader">Update Log</header><br><header class="FeaturesHeader">27.10.2025 - 0.4 - Code update</header><br><br><header class="FeaturesHeader">28.10.2025 - 0.6 - PySide6 Migration</header><br><br><header class="FeaturesHeader">29.10.2025 - 0.8 - Tabs Update</header><br><br><header class="FeaturesHeader">29.10.2025 - 0.9p1 - Icon Update</header>';
     })
 
 }
+
 
 
 
