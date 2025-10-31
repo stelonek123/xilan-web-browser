@@ -15,7 +15,7 @@ function Tab() {
 
     BOp1.addEventListener("click", function(event) {
         event.preventDefault();
-        site_content.innerHTML = '<header class="FeaturesHeader">Whats New?</header> <br> Honestly Navigation Bar now have icons<br> Added simple tab system (double click on tabbar to add new tab), <br> Migrated project to PySide6'
+        site_content.innerHTML = '<header class="FeaturesHeader">Whats New?</header> <br>(0.8) Honestly Navigation Bar now have icons<br> Added simple tab system (double click on tabbar to add new tab), <br> Migrated project to PySide6 <br><br> (0.9p1) <> App Icon changed'
     })
     BOp2.addEventListener("click", function(event) {
         event.preventDefault();
@@ -31,10 +31,3 @@ function Tab() {
     })
 
 }
-
-
-
-
-
-
-
