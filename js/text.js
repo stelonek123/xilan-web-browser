@@ -19,7 +19,7 @@ function Tab() {
     })
     BOp2.addEventListener("click", function(event) {
         event.preventDefault();
-        site_content.innerHTML = 'Download XWB for Windows(0.9p1): <a href="https://www.mediafire.com/file/osyjwgaw62qejz2/xwb_winsetup_0.9p1.exe/file" target="_blank">Click Here</a><br> Download XWB for Windows(0.9p2): <a href="https://www.mediafire.com/file/k2f60ouh5ekjmsi/xwb_winsetup09p2.exe/file" target="_blank">Click Here</a><br> You are downloading Xilan Web Browser, thanks mate!';
+        site_content.innerHTML = 'Download XWB for Windows(0.9p1): <a href="https://www.mediafire.com/file/osyjwgaw62qejz2/xwb_winsetup_0.9p1.exe/file" target="_blank">Click Here</a><br> Download XWB for Windows(0.9p2): <a href="https://www.mediafire.com/file/k2f60ouh5ekjmsi/xwb_winsetup09p2.exe/file" target="_blank">Click Here</a><br> Download XWB for Windows(0.9p3): <a href="https://github.com/stelonek123/xilan-web-browser/releases/download/xwb/XWB0.9p3_win64.zip" target="_blank">Click Here</a><br> You are downloading Xilan Web Browser, thanks mate!';
     })
     BOp3.addEventListener("click", function(event) {
         event.preventDefault();
@@ -31,6 +31,7 @@ function Tab() {
     })
 
 }
+
 
 
 
